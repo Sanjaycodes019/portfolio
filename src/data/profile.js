@@ -149,7 +149,7 @@ export const profile = {
       url: 'https://www.linkedin.com/posts/sanjay-gupta-400849322_hackindia-spark5-safeher-activity-7319409837438558209-ybUZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGjgwABMZ80A77JlNjGYbI24byLE89oUUc',
     },
     {
-      title: 'Solved 250+ DSA Problems',
+      title: 'Solved 300+ DSA Problems',
       event: 'LeetCode and GeeksforGeeks',
       description: 'Consistently practising algorithmic problem solving',
     },
