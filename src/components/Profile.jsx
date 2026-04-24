@@ -157,7 +157,7 @@ const Profile = () => {
   const stats = useMemo(() => {
     const wins = profile.achievements.filter((a) => /winner/i.test(a.title)).length;
     return [
-      { number: '250+', label: 'DSA Problems',    sub: 'LeetCode · GFG' },
+      { number: '300+', label: 'DSA Problems',    sub: 'LeetCode · GFG' },
       { number: String(profile.projects.length).padStart(2, '0'), label: 'Live Projects', sub: 'Full-stack builds' },
       { number: profile.education.cgpa, label: 'CGPA',           sub: profile.education.university },
       { number: `${wins}+`,  label: 'Wins',           sub: 'Hackathons & comps' },
