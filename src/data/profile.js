@@ -1,12 +1,12 @@
 export const profile = {
   name: 'Sanjay Gupta',
   location: 'Siyari - 6, Lumbini, Nepal',
-  phone: '+91 9235054394, +977 9766382090',
+  phone: '+91 9235054394',
   phoneTel: '+919235054394',
   email: 'sahausanjay99@gmail.com',
   headline: 'Full-Stack Developer · Backend & APIs · DSA',
   summary:
-    'Full-stack software engineer (in training) at Chitkara University with hands-on experience building production-grade MERN applications and real-time WebSocket systems. Hackathon top performer (HackFest 2025, HackIndia Spark 5) with 250+ DSA problems solved on LeetCode. Seeking a software engineering role to build scalable, high-impact products.',
+    'Full-stack software engineer (in training) at Chitkara University with hands-on experience building production-grade MERN applications and real-time WebSocket systems. Hackathon top performer (HackFest 2025, HackIndia Spark 5) with 300+ DSA problems solved on LeetCode. Seeking a software engineering role to build scalable, high-impact products.',
   socials: {
     linkedin: {
       label: 'LinkedIn',
@@ -115,6 +115,26 @@ export const profile = {
       number: '03',
       color: 'navy',
     },
+    {
+      title: 'Schedulix',
+      subtitle: 'CPU Scheduling Simulator',
+      period: '2025',
+      type: 'Desktop Application',
+      description:
+        'A comprehensive desktop application for simulating and visualizing CPU scheduling algorithms with both console and graphical interfaces.',
+      features: [
+        'Implemented 5 major CPU scheduling algorithms: FCFS, SJF, SRTF, Round Robin, and Priority Scheduling with accurate performance metrics calculation.',
+        'Developed dual interface architecture providing both lightweight console version for quick testing and feature-rich GUI version for interactive process management.',
+        'Created real-time Gantt chart visualization and detailed performance analysis including waiting time, turnaround time, and algorithm comparison reports.',
+        'Built modular C++ architecture using object-oriented design patterns with separate classes for each algorithm, enabling easy extensibility and maintenance.'
+      ],
+      tech: ['C++17', 'Windows API', 'SFML', 'CMake', 'Object-Oriented Programming'],
+      github: 'https://github.com/Sanjaycodes019/Shedulix_Simulator_CPP',
+      live: null,
+      icon: 'scheduler',
+      number: '04',
+      color: 'crimson',
+    },
   ],
   education: {
     university: 'Chitkara Universty',
@@ -149,7 +169,7 @@ export const profile = {
       url: 'https://www.linkedin.com/posts/sanjay-gupta-400849322_hackindia-spark5-safeher-activity-7319409837438558209-ybUZ?utm_source=share&utm_medium=member_desktop&rcm=ACoAAFGjgwABMZ80A77JlNjGYbI24byLE89oUUc',
     },
     {
-      title: 'Solved 250+ DSA Problems',
+      title: 'Solved 300+ DSA Problems',
       event: 'LeetCode and GeeksforGeeks',
       description: 'Consistently practising algorithmic problem solving',
     },
